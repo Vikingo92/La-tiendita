@@ -1,0 +1,33 @@
+.nav {
+    display: block;
+    height: 30vh;
+    justify-content: center;
+    place-content: center;
+    text-align: right;
+
+    button {
+        background-color: $primary-color;
+        color: white;
+        padding: 1rem;
+        border-radius:10px;
+        width: 100px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+        margin: 0 2rem;
+        margin-bottom: 4rem;
+        
+        &:hover{
+            transform: scale(1.10);
+            transition: .5s;
+        }
+    }
+
+    img {
+        transform: translate(-73rem);
+        margin-top: 2rem;
+        width:8rem;
+        
+    }
+    
+}

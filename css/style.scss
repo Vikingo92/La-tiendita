@@ -1,0 +1,39 @@
+@import 'config', 'card', 'navbar', 'modal', 'carrito';
+
+body {
+    // background-color:rgb(234, 247, 232);
+    background-color:white;
+    color: set-text-color($dark);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+    height: 100vh;
+}
+
+h3, h4, h5 {
+    font-weight: 700;   
+}
+
+h4 {
+    font-weight: 400;
+}
+
+// header {
+//     // width: 100%;
+//     // padding: 0.5rem;
+// }
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    font-size: 1rem;
+    position:  fixed;
+    bottom: 0.4rem;
+    right: 1rem;
+    text-align: center;
+    padding: 1rem;
+    color: $dark;
+    transform: rotate(90deg) translate(-3rem, -5rem);
+}

@@ -1,0 +1,52 @@
+$primary-color: #0AC763;
+$secondary-color: #5E18BB;
+$orange: #ff652f;
+$dark: #272727;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@mixin media-m {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin media-l {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
+
+// @include media-m {
+//     .nav {
+//         display:flex;
+//         height: 30%;
+//         width: 30%;
+//         justify-content: center;
+//         align-items:center;
+//     }
+
+//     .products {
+//         align-items: center; 
+//         grid-template-columns: repeat(2, 1fr);
+
+//     }
+
+// }
+
+// @include media-l {
+//     .products {
+//         grid-template-columns: repeat(3, 1fr);
+//         justify-content: center;
+//     }
+// }
+
+
+
+
+

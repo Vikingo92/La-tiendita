@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "discount": "32% dto.",
+      "name": "Limón con semilla",
+      "image": "./images/image 1.png",
+      "price": "$26.82/kg",
+      "price2": "$39.9/kg",
+      "iva": "Precio con IVA incluido.",
+      "description": "Precio aproximado por pieza, puede variar de acuerdo al peso real."
+    },
+    {
+      "id": 2,
+      "discount": "32% dto.",
+      "name": "Tomate",
+      "image": "./images/image 2.png",
+      "price": "$21.79/kg",
+      "price2": "$32.9/kg",
+      "iva": "Precio con IVA incluido.",
+      "description": "Precio aproximado por pieza, puede variar de acuerdo al peso real."
+    },
+    {
+      "id": 3,
+      "discount": "18% dto.",
+      "name": "Aguacate Hass",
+      "image": "./images/image 3.png",
+      "price": "$56.8/kg",
+      "price2": "$69.9/kg",
+      "iva": "Precio con IVA incluido.",
+      "description": "Precio aproximado por pieza, puede variar de acuerdo al peso real."
+    },
+    {
+      "id": 4,
+      "discount": "13% dto.",
+      "name": "Nopal limpio",
+      "image": "./images/image 4.png",
+      "price": "$25.8/kg",
+      "price2": "$29.9/kg",
+      "iva": "Precio con IVA incluido.",
+      "description": "Precio aproximado por pieza, puede variar de acuerdo al peso real."
+    },
+    {
+      "id": 5,
+      "discount": "8% dto.",
+      "name": "Tomate verde sin cascara",
+      "image": "./images/image 5.png",
+      "price": "$22.89/kg",
+      "price2": "$24.9/kg",
+      "iva": "Precio con IVA incluido.",
+      "description": "Precio aproximado por pieza, puede variar de acuerdo al peso real."
+    },
+    {
+      "id": 6,
+      "name": "San Rafael pechuga de pavo",
+      "image": "./images/image 6.png",
+      "price": "$62.5",
+      "iva": "Precio con IVA incluido.",
+      "description": "Precio aproximado por pieza, puede variar de acuerdo al peso real."
+    },
+    {
+      "id": 7,
+      "name": "Bimbo Pan Blanco Grande",
+      "image": "./images/image 7.png",
+      "price": "$38.9",
+      "iva": "Precio con IVA incluido.",
+      "description": "Precio aproximado por pieza, puede variar de acuerdo al peso real."
+    },
+    {
+      "id": 8,
+      "name": "Mc Cormick Mayonesa",
+      "image": "./images/image 8.png",
+      "price": "$48.5",
+      "iva": "Precio con IVA incluido.",
+      "description": "Precio aproximado por pieza, puede variar de acuerdo al peso real."
+    },
+    {
+      "id": 9,
+      "name": "Colgate Pasta Dental 2 U.",
+      "image": "./images/image 9.png",
+      "price": "$35.5",
+      "iva": "Precio con IVA incluido.",
+      "description": "Precio aproximado por pieza, puede variar de acuerdo al peso real."
+    },
+    {
+      "id": 10,
+      "name": "Huevos San Juan",
+      "image": "./images/image 10.png",
+      "price": "$37.5",
+      "iva": "Precio con IVA incluido.",
+      "description": "Precio aproximado por pieza, puede variar de acuerdo al peso real."
+    },
+    {
+      "producto": "leguga",
+      "cantidad": "",
+      "id": 11
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>La Tiendita |</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <img src="./images/Tiendita.png" class="nav-img">
+            <!-- <h3>Mexico City</h3> -->
+
+            <div class="nav__buttom">
+                <button id="boton-shop">
+                    <i class="fa-solid fa-cart-shopping fa-2x"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner__portada">
+            <img src="./images/Banner.png">
+        </div>
+    </section>
+
+    <main>
+        <section id="render" class="products">
+            <h2 class="text">Ofertas</h2>
+            <!-- <div id="modal_render"></div> -->
+
+
+            <!-- Carrito de compras -->
+            
+            
+            <footer>&copy; Copyright 2022</footer>
+        </section>
+    </main>
+
+    <!-- Template 1 Cards-->
+    <template id="template-card">
+        <div class="products__list" id="card">
+            <div class="products__img">
+                <h3 class="discount">32% dto.</h3>
+                <img class="img_product" src="./images/image 1.png">
+                <h3 class="price">$26.82/kg</h3>
+                <h5>$26.82/kg</h5>
+                <h4>Limon con semilla</h4>
+                <button id="agregar">Agregar</button>
+            </div>
+        </div>
+    </template>
+
+    <!-- Template 2 Modal -->
+    <!-- <template id="template_modal">
+        <div class="modal" id="modal">
+            <span class="modal__back"></span>
+            <div class="modal__content">
+                <div class="modal__header">
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="modal-title">Aguacate Hass</h2>
+                    <img class="principal" src="./images/image 3.png">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, fugit.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quod.</p>
+                    <div class="modal__info">
+                        <img src="./images/image 1.png">
+                        <img src="./images/image 2.png">
+                        <img src="./images/image 4.png">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="close-modal" id="">Agregar</button>
+                    <button class="close-modal" id="cancelar">Cancelar</button>
+                </div>
+            </div>
+        </div>
+
+    </template> -->
+
+
+    
+    <script src="https://kit.fontawesome.com/7064097225.js" crossorigin="anonymous"></script>
+    <script src="./scripts/carrito.js"></script>
+    <script src="./scripts/description.js"></script>
+    <script src="./scripts/script.js" type="module"></script>
+
+</body>
+
+</html>

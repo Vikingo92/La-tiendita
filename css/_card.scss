@@ -1,0 +1,215 @@
+.banner {
+    place-content: center;
+    background-size: cover;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    
+    &__portada {
+        margin-bottom: 2rem;
+        
+    }
+}
+
+.products {
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    grid-gap:5px;
+    padding-top: 2rem;
+    // margin: 2rem;
+    flex-wrap:wrap;
+   
+    .text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+        display: inline-block;
+    }
+    
+    &__list {
+        background-color: white;
+        word-wrap: break-word;
+        display: grid;
+        flex-direction: column;
+        align-items: center;
+        place-content: center;
+        margin: 0 auto;
+        box-shadow: 1px 1px 2px rgb(139, 133, 133);
+        border-radius: 1rem;
+        width: 250px;
+        height: 490px;
+        margin-bottom: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+        word-wrap:break-word;
+
+        &:hover {
+            transform: scale(1.10);
+            transition: .5s;
+            background-color:lighten($dark, 60);
+        }
+    }
+
+    
+    &__img {
+
+        h5 {
+            color: rgb(95, 90, 90);
+            margin-top: 0.5rem;
+            padding-bottom: 2rem;
+            font-size:1rem;
+        }
+
+        h3 {
+            padding: 5px;
+            margin-top: 10px;
+        }
+        h4 {
+            font-size: 1rem;
+            word-wrap:break-word;
+
+        }
+
+        .discount {
+            color: $secondary-color;
+            border-radius: 100px;
+            width: 90px;
+            height:30px;
+            padding-bottom:1rem;
+            margin-top: 3.5rem;
+            margin-left: 3.2rem;
+            margin-bottom: 1rem;
+            background: lighten($secondary-color, 40%);
+
+        }
+
+        button {
+            margin: 3rem;
+            padding: 1rem;
+            width: 200px;
+            // height:49px;
+            border: none;
+            border-radius: 10px;
+            color: #eee;
+            background: $primary-color;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        img {
+            border-radius: 15px;
+        }
+
+    
+    }
+}
+
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+#template_card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin:0 1rem;
+}
+
+.productos2 {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    grid-gap:5px;
+    // padding-top: 2rem;
+    margin: 2rem;
+    flex-wrap:wrap;
+    grid-template-columns: repeat(4, 1fr);
+    
+
+    .text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+        display: inline-block;
+        
+    }
+    
+    &__list {
+        display: grid;
+        flex-direction: column;
+        align-items: center;
+        place-content: center;
+        margin: 0;
+        box-shadow: 1px 1px 2px rgb(139, 133, 133);
+        border-radius: 1rem;
+        width: 250px;
+        height: 460px;
+        margin-bottom: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+
+        &:hover {
+            transform: scale(1.10);
+            transition: .5s;
+            background-color:lighten($dark, 60);
+        }
+    }
+
+    
+    &__img {
+        h5 {
+            color: rgb(95, 90, 90);
+            margin-top: 0.5rem;
+            padding-bottom: 2rem;
+            font-size:1rem;
+        }
+
+        h3 {
+            padding: 5px;
+            margin-top: 10px;
+        }
+        h4 {
+            font-size: 1rem;
+        }
+
+        .discount {
+            color: $secondary-color;
+            border-radius: 100px;
+            width: 90px;
+            height:30px;
+            padding-bottom:1rem;
+            margin-top: 3.5rem;
+            margin-left: 3.2rem;
+            margin-bottom: 1rem;
+            background: lighten($secondary-color, 40%);
+
+        }
+
+        button {
+            margin: 3rem;
+            padding: 1rem;
+            width: 200px;
+            // height:49px;
+            border: none;
+            border-radius: 10px;
+            color: #eee;
+            background: $primary-color;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        img {
+            border-radius: 15px;
+        }
+
+    
+    }
+}
+    
